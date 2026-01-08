@@ -1,0 +1,33 @@
+.header {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid rgba(140, 123, 112, 0.1);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    color: var(--color-brown);
+    font-weight: 700;
+}
+
+.menu {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.link {
+    font-size: 1rem;
+    color: var(--color-text);
+    font-weight: 500;
+}
+
+.link:hover {
+    color: var(--color-brown);
+}

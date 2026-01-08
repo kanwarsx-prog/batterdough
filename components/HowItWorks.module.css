@@ -1,0 +1,40 @@
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.step {
+    flex: 1;
+    min-width: 250px;
+    background: var(--color-white);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.number {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: var(--color-sage);
+    color: var(--color-white);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.stepTitle {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: var(--color-brown);
+}
+
+.text {
+    font-size: 0.95rem;
+    color: var(--color-text-light);
+}

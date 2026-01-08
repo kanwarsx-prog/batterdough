@@ -1,0 +1,41 @@
+.container {
+    min-height: 80vh;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.imageWrapper {
+    flex: 1;
+    position: relative;
+    height: 400px;
+    min-width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.image {
+    object-fit: cover;
+}
+
+.text {
+    flex: 1;
+    font-size: 1.1rem;
+    color: var(--color-text-light);
+}
+
+.text p {
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
