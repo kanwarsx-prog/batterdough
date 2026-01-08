@@ -72,4 +72,12 @@
     .title {
         font-size: 2.5rem;
     }
+
+    .hero {
+        min-height: 400px;
+    }
+
+    .content {
+        padding: 1rem;
+    }
 }

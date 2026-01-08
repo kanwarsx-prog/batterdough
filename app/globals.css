@@ -8,7 +8,7 @@
   --color-text: #2C2C2C;
   --color-text-light: #5A5A5A;
   --color-white: #FFFFFF;
-  
+
   /* Fonts */
   --font-heading: var(--font-playfair), serif;
   --font-body: var(--font-inter), sans-serif;
@@ -16,6 +16,12 @@
   /* Spacing */
   --spacing-container: 1200px;
   --spacing-padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --spacing-padding: 1rem;
+  }
 }
 
 * {
@@ -31,7 +37,12 @@ body {
   line-height: 1.6;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading);
   font-weight: 500;
   color: var(--color-text);
